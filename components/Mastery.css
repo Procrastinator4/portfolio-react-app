@@ -1,0 +1,46 @@
+.mastery-main-section {
+  width: 100%;
+  /* background-color: burlywood; */
+}
+.mastery-main-section h1 {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+.mastery {
+  padding: 2rem 4rem;
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.card {
+  height: 15rem;
+  /* background-color: crimson; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.4rem;
+}
+.card img {
+  height: 10rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+.card h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  /* color: rgb(209, 183, 183); */
+  color: #333;
+}
+@media (max-width: 960px) {
+  .mastery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .mastery {
+    grid-template-columns: 1fr;
+  }
+}

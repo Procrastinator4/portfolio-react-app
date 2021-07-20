@@ -1,10 +1,15 @@
 import React from "react";
+import Header from "../components/Header";
+import HeroSection from "../components/HeroSection";
+import Mastery from "../components/Mastery";
 import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      <h1>hello world</h1>
+      <Header />
+      <HeroSection />
+      <Mastery />
     </div>
   );
 }
