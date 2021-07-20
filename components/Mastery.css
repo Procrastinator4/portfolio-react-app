@@ -27,6 +27,10 @@
   height: 10rem;
   width: 10rem;
   margin-bottom: 1rem;
+  transition: all 0.5s linear;
+}
+.card img:hover {
+  transform: rotate(360deg);
 }
 .card h2 {
   font-size: 1.5rem;

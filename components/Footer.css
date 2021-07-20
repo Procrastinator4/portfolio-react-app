@@ -1,0 +1,33 @@
+.main-footer {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(59, 56, 56);
+}
+.apps-links {
+  display: flex;
+  flex-direction: column;
+}
+.ads-links {
+  display: flex;
+  flex-direction: column;
+}
+.apps-links li,
+.ads-links li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+i {
+  margin-right: 0.5rem;
+}
+.apps-links li a,
+.ads-links li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.apps-links li a:hover,
+.ads-links li a:hover {
+  color: rgb(136, 136, 136);
+}
