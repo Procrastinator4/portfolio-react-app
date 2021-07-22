@@ -17,10 +17,6 @@ function Footer() {
           <i class="fab fa-instagram"></i>
           <a href="#">Instagram</a>
         </li>
-        <li>
-          <i class="fab fa-linkedin"></i>
-          <a href="#">LinkedIn</a>
-        </li>
       </div>
       <div className="ads-links">
         <li>
