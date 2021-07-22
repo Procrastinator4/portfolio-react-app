@@ -3,10 +3,10 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header>
+    <header id="main">
       <nav>
         <div className="logo">
-          <a href="#">Portfolio</a>
+          <a href="#main">Portfolio</a>
         </div>
         <div className="nav-links">
           <li>
